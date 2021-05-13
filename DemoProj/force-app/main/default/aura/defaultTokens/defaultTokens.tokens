@@ -1,0 +1,4 @@
+<aura:tokens>
+	<aura:token name="myBackgroundColor" value="black" />	
+     <aura:token name="myTextColor" value="red" />	
+</aura:tokens>

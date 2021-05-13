@@ -1,0 +1,12 @@
+.myclass{
+    background :blue;
+    color: white;
+}
+.myclasstokens{
+    background : var(--c-myBackgroundColor);
+    color : var(--c-myTextColor);
+}
+c-my-child-css-demo{
+    display: block;
+    border: 2px solid red;
+}

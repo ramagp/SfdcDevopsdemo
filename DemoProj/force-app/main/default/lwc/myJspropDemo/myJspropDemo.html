@@ -1,0 +1,23 @@
+<template>
+   First Name: {fname} Last NAme:{lname} 
+   <br>
+   <lightning-card>
+    <lightning-input
+   name="firstname"
+   label="First Name"
+   onchange={handleChange}
+           value={fname}
+></lightning-input>
+<lightning-input
+   name="lastname"
+   label="Last Name"
+   onchange={handleChange}
+           value={lname}
+></lightning-input>
+</lightning-card>
+
+<br>
+<c-my-public-prop-demo></c-my-public-prop-demo>
+<c-my-public-prop-demo emp-name='John' dateof-join='21st jan 2021'></c-my-public-prop-demo>
+<c-my-public-prop-demo emp-name='Alex' dateof-join='30th jan 2021'></c-my-public-prop-demo>
+</template>
